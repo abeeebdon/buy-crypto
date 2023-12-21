@@ -12,9 +12,9 @@ body {
   background: #1699ad;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
     Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-weight: 400;
   line-height: 1;
   color: #122633;
+  font-size: 1rem;
 }
 .header-flex {
   display: flex;
@@ -40,21 +40,34 @@ body {
   display: flex;
   gap: 1.2rem;
 }
+.nav-bar a {
+  font-size: 1.2rem;
+  color: #000;
+  font-weight: 400;
+}
+.nav-bar a:hover {
+  color: #361a5c;
+}
 .sign-in {
   display: flex;
   gap: 1rem;
 }
 
 #btn-login {
-  padding: 1rem;
+  padding: 0.7rem 1rem;
   background: none;
   outline: none;
   border: 0.2rem solid #2c1052;
   color: #2d1052;
   border-radius: 1rem;
 }
+#btn-login:hover {
+  color: #361a5c;
+  background: white;
+  cursor: pointer;
+}
 #btn-signup {
-  padding: 1rem;
+  padding: 0.7rem 1rem;
   background: #2c1052;
   color: #fff;
   outline: none;
@@ -62,6 +75,11 @@ body {
   border-radius: 1rem;
 }
 
+#btn-signup:hover {
+  background-color: white;
+  color: #2c1052;
+  cursor: pointer;
+}
 .section {
   display: grid;
   place-items: center;
@@ -71,16 +89,17 @@ body {
   padding: 1rem;
   text-align: center;
   max-width: 800px;
-  line-height: 4rem;
 }
 .center-text h1 {
-  font-size: 3.3rem;
+  font-size: 3.2rem;
   font-weight: 700;
   color: #2d1052;
 }
+
 .center-flex {
+  width: 90vw;
   display: flex;
-  gap: 1rem;
+  gap: 0.9rem;
   justify-content: space-around;
   align-items: center;
   margin: 1rem;
@@ -92,7 +111,7 @@ body {
   color: var(#122633);
   padding: 0.7rem;
   border-radius: 0.8rem;
-  font-size: 10px;
+  font-size: 9px;
 }
 .icon {
   color: white;
@@ -119,6 +138,9 @@ body {
   outline: none;
   color: #fff;
 }
+.get-started:hover {
+  background-color: #3e3e52;
+}
 .icon-arrow {
   color: #e19431;
   font-size: 1.2rem;
@@ -140,7 +162,7 @@ body {
   border: 1px solid black;
 }
 .images {
-  width: 350px;
+  width: 30vw;
 }
 .eth {
   display: flex;
@@ -153,7 +175,7 @@ body {
   border: none;
   border-radius: 1rem;
   top: 35%;
-  left: -20%;
+  left: -7%;
 }
 .usdt {
   display: flex;
