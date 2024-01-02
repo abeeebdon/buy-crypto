@@ -1,5 +1,4 @@
 import Header from './Header/Header'
-import './app.css'
 import Content from './body/Content'
 import Foot from './body/Foot'
 const App = () => {
