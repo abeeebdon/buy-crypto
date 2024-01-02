@@ -16,6 +16,10 @@ body {
   color: #122633;
   font-size: 1rem;
 }
+.App {
+  width: 100%;
+  height: 100%;
+}
 .header-flex {
   display: flex;
   flex-direction: row;
@@ -27,9 +31,8 @@ body {
 .header-logo {
   flex-basis: 25%;
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
   align-items: center;
-  gap: 0.3rem;
   margin: 1rem;
 }
 .logo-text h2 {
@@ -37,17 +40,17 @@ body {
   font-weight: 700;
   color: #2c1052;
 }
-.nav-bar {
+.navbar {
   flex-basis: 35%;
   display: flex;
   gap: 1.2rem;
 }
-.nav-bar a {
+.navbar a {
   font-size: 1.2rem;
   color: #000;
   font-weight: 400;
 }
-.nav-bar a:hover {
+.navbar a:hover {
   color: #361a5c;
 }
 .sign-in {
@@ -106,7 +109,7 @@ body {
   align-items: center;
   margin: 1rem;
 }
-.center-flex-item {
+.center-flex div {
   display: flex;
   gap: 0.1rem;
   background: #fff;
@@ -134,15 +137,16 @@ body {
   width: 300px;
   margin: 1rem;
 }
-.btn-started {
+.get-started:hover {
+  background-color: #3e3e52;
+}
+.get-started button {
   background: none;
   border: none;
   outline: none;
   color: #fff;
 }
-.get-started:hover {
-  background-color: #3e3e52;
-}
+
 .icon-arrow {
   color: #e19431;
   font-size: 1.2rem;
@@ -254,5 +258,10 @@ body {
   #btn-login {
     padding: 1rem;
     margin-right: 10px;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .hide {
+    display: none;
   }
 }

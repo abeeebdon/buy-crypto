@@ -15,7 +15,7 @@ const Foot = () => {
             <img src={eth} className="eth-img" alt="eth-img" />
             <p>ETH accepted</p>
           </div>
-          <div className="usdt">
+          <div className="usdt hide">
             <img src={usdt} className="usdt-img" alt="usdt-img" />
             <p>USDT accepted</p>
           </div>
@@ -24,12 +24,12 @@ const Foot = () => {
       <div className="exclamation-item">
         <div className="exclamation">
           <img src={image2} className="images" alt="image2" />
-          <div className="bitcoin">
+          <div className="bitcoin hide">
             <img src={bitcoin} className="bitcoin-img" alt="bitcoin-img" />
             <p>Bitcoin payment</p>
           </div>
           <div className="usdt usdt-two">
-            <img src={usdt} className="usdt-img " alt="usdt-img" />
+            <img src={usdt} className="usdt-img" alt="usdt-img" />
             <p>USDT accepted</p>
           </div>
         </div>
@@ -37,12 +37,12 @@ const Foot = () => {
       <div className="exclamation-item">
         <div className="exclamation">
           <img src={image3} className="images" alt="image3" />
-          <div className="bitcoin">
+          <div className="bitcoin hide">
             <img src={bitcoin} className="bitcoin-img" alt="bitcoin-img" />
             <p>Bitcoin payment</p>
           </div>
           <div className="ltc">
-            <img src={ltc} className="ltc-img" alt="ltc-img" />
+            <img src={ltc} className="ltc-img hide" alt="ltc-img" />
             <p>LTC accepted</p>
           </div>
         </div>
