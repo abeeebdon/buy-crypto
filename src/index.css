@@ -85,6 +85,33 @@ body {
   color: #2c1052;
   cursor: pointer;
 }
+.header-icon-btn {
+  background: none;
+  border: none;
+  outline: 0;
+}
+.header-icon {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.side-bar {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 2%;
+  background-color: #6ca6af;
+  width: 100%;
+}
+.side-bar a {
+  text-decoration: none;
+  margin: 0.3rem;
+  color: white;
+  cursor: pointer;
+}
+.side-bar a:hover {
+  color: #1699ad;
+}
 .section {
   display: grid;
   place-items: center;
@@ -234,7 +261,12 @@ body {
 .bitcoin p {
   font-size: 0.9rem;
 }
-
+@keyframes center-content {
+  from {
+  }
+  to {
+  }
+}
 @media only screen and (max-width: 1000px) {
   .header-flex {
     padding: 0;
