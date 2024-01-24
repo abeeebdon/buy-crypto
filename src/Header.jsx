@@ -3,6 +3,7 @@ import logo from './Images/Icon.svg'
 import { NavLink } from 'react-router-dom'
 
 const Header = ({ width, toggleHead, setToggleHead }) => {
+  console.log(width)
   return (
     <div className="header-flex">
       <div className="header-logo">
@@ -12,8 +13,8 @@ const Header = ({ width, toggleHead, setToggleHead }) => {
           <p>simplifying global payment</p>
         </div>
       </div>
-      {width >= 500 ? (
-        <div>
+      {width >= 650 ? (
+        <div className="navbar-flex">
           <div className="navbar">
             <NavLink>About us</NavLink>
             <NavLink>Academy</NavLink>

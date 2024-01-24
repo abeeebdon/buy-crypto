@@ -28,6 +28,13 @@ body {
   align-items: center;
   padding: 1rem;
 }
+.navbar-flex {
+  display: flex;
+  width: 100%;
+  margin-left: 5%;
+  justify-content: space-around;
+  align-items: center;
+}
 .header-logo {
   flex-basis: 25%;
   display: flex;
