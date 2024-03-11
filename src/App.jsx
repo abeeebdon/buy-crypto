@@ -15,7 +15,7 @@ const App = () => {
         toggleHead={toggleHead}
         setToggleHead={setToggleHead}
       />
-      {toggleHead && width <= 500 && <SideBar setToggleHead={setToggleHead} />}
+      {toggleHead && width <= 650 && <SideBar />}
       <main>
         <Content />
         <Foot />

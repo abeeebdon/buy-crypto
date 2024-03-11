@@ -31,12 +31,11 @@ body {
 .navbar-flex {
   display: flex;
   width: 100%;
-  margin-left: 5%;
   justify-content: space-around;
   align-items: center;
 }
 .header-logo {
-  flex-basis: 25%;
+  flex-basis: 35%;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -123,6 +122,7 @@ body {
   display: grid;
   place-items: center;
   margin: 2rem 0rem;
+  padding-top: 1.5rem;
 }
 .center-text {
   padding: 1rem;
@@ -302,5 +302,8 @@ body {
 @media only screen and (max-width: 650px) {
   .hide {
     display: none;
+  }
+  html {
+    font-size: 75%;
   }
 }
